@@ -184,5 +184,87 @@
         padding: 12px 0;
     }
 }
+
+
 /*** Navbar End ***/
 
+/* ================================================= */
+/* ---------------- Welcome Section ---------------- */
+/* ================================================= */
+
+#welcome {
+    position: relative;
+    padding: 45px 0 60px 0;
+    background: #ffffff;
+    text-align: center;
+}
+
+#welcome h3 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#welcome h4 {
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+#welcome p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 767.98px) {
+    #welcome h3 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    #welcome h4 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    #welcome p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #welcome h3 {
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0;
+    }
+    
+    #welcome h4 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+    #welcome p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+#welcome a {
+    display: inline-block;
+    padding: 7px 30px;
+    color: #00CED1;
+    background: #222222;
+    border-radius: 30px;
+}
+
+#welcome a:hover {
+    color: #222222;
+    background: #00CED1;
+}
