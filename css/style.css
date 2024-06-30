@@ -195,7 +195,7 @@
 #welcome {
     position: relative;
     padding: 45px 0 60px 0;
-    background: #ffffff;
+    background: #d1d3d6;
     text-align: center;
 }
 
@@ -268,3 +268,4 @@
     color: #222222;
     background: #00CED1;
 }
+
